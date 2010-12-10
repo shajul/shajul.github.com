@@ -1,0 +1,201 @@
+* {padding:0; margin:0;}
+body {
+	padding:0;  margin:0;
+	font:11px Tahoma;
+	color:#434343;}
+	
+img {behavior:url("pngbehavior.htc"); border:none;}
+
+h1 {font:bold 16px Verdana;}
+h3 {font:bold 16px "Trebuchet MS"; color:#323232; line-height:25px; text-indent:20px;}
+p { font:12px Tahoma; padding:7px 0;}
+.text {padding:0 20px;}
+
+a  {font:12px Arial; color:#99ba00; text-decoration:underline;}
+a:hover  {text-decoration:none;}
+
+
+	
+#header1_bg {
+	width:100%;
+	height:73px;
+	background: url(img/header1_bg.jpg) repeat-x;}
+#header1 {
+	width:900px;
+	height:73px;
+	margin:0 auto;}
+
+	#navigation{
+		position:relative;
+		top:43px;
+		width:100%;
+		height:30px;}
+			#menu {
+				font: 12px Tahoma;
+				height:30px;
+				margin:0 auto;
+				line-height:30px;
+				color:#99ba00;}
+			#menu li {
+				width:111px;
+				height:30px;
+				list-style-type:none;
+				float:left;
+				text-align:center;
+				background:url(img/menu.gif) no-repeat;}
+			#menu li:hover {background:url(img/menu_hov.gif) no-repeat;}	
+			#menu a {
+				height:30px;
+				text-decoration:none;
+				color:#99ba00;}
+			#menu a:hover {
+				color: #000;
+				text-decoration:underline;}		
+	
+
+
+	
+#header2_bg {
+	width:100%;
+	height:261px;
+	background: url(img/header2_bg.gif) repeat-x;}
+#header2 {
+	width:900px;
+	height:261px;
+	margin:0 auto;
+	position:relative;}
+	
+		#header2_left {
+			position:absolute;
+			top:0; left:0;
+			width:223px;
+			height:100px;}
+			
+				#menu2 {margin-top:30px; border-top:solid 1px #bfbfbf;}
+				#menu2 li {
+					width:223px;
+					height:31px;
+					text-indent:25px;
+					list-style-type:none;
+					background:url(img/left_menu.gif) no-repeat;}
+				#menu2 li:hover {background:url(img/left_menu_hov.gif) no-repeat;}
+				#menu2 a {
+					font:12px Arial; 
+					color:#434343;
+					line-height:31px;}
+				#menu2 a:hover {color:#99ba00; text-decoration:none;}	
+
+		#header2_right {
+			position:absolute;
+			top:0; right:0;
+			width:677px;
+			height:242px;
+			background:url(img/pic_bg.jpg) no-repeat right;}
+			
+				#header2_right h2 {font:bold 16px "Trebuchet MS", sans-serif; color:#849d0e; padding:30px 10px 10px 30px;}
+				#header2_right p {font:12px Verdana; padding:0 30px; width:370px;}
+				#header2_right a {color:#849d0e; text-decoration:underline;}
+				#header2_right a:hover {text-decoration:none;}
+	
+#main_bg {
+	width:100%;
+	height:100%;
+	background:#434343;}	
+#main {
+	width:900px;
+	height:100%;
+	margin:0 auto;}	
+	
+		#left {
+			display:inline;
+			float:left;
+			width:223px;
+			height:100%;}
+			
+				.cat {
+					width:223px;
+					height:25px;
+					background:url(img/cat.jpg) no-repeat;}
+
+						
+					#left li {
+						width:223px;
+						height:28px;
+						display:block;
+						text-indent:24px;
+						list-style-type:none;
+						background:url(img/left_li.jpg) no-repeat;}
+					#left a {
+						color:#fff;
+						line-height:28px;} 
+				
+				.box { 
+					width:100%;
+					background:url(img/ten.gif) no-repeat bottom;
+					color:#fff;}
+					.box1 { padding:0 10px 5px 10px;}
+				.data {color:#99ba00;}	
+					
+			
+		#right {
+			display:inline;
+			float:right;
+			width:677px;}
+			
+				#content {
+					width:100%;
+					height:100%;
+					margin-left:15px;
+					background:url(img/cont_bg.gif) repeat-y ;}
+				#cont_top {
+					width:662px;
+					height:33px;
+					background:url(img/cont_top.gif) no-repeat;}
+	
+				#cont_bot {
+					width:662px;
+					height:16px;
+					margin-left:15px;
+					background:url(img/cont_bot.gif) no-repeat;}	
+	
+				#content img {padding-left:3px;}
+	
+/* Quote & Code blocks */
+.code {
+	font-family: Andale Mono, Courier New, Courier, sans-serif; font-size: 12px; line-height: 14px; color: #0000A0;
+	background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #444444; line-height: 125%;
+	background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+	
+
+#footer_bg {
+	width:100%;
+	height:114px;
+	background:url(img/footer_bg.gif) repeat-x;}	
+#footer {
+	width:900px;
+	height:114px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:30px;}	
+	
+		#footer a {padding:0 16px; color:#000;}
+		#footer a:hover {color:#99ba00;}
+
+		#foot p {color:#ccc; padding-top:20px;}
+	    #foot a {color:#99ba00;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
